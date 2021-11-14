@@ -32,14 +32,15 @@ const PieChart: React.FC = () => {
         ],
       }}
       options={{
+        aspectRatio: 2,
         plugins: {
           legend: {
             position: "bottom",
             labels: {
               boxWidth: 15,
-            }
-          }
-        }
+            },
+          },
+        },
       }}
     />
   )
